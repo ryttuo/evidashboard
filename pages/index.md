@@ -45,16 +45,6 @@ title: Welcome to Evidence
     series=category
 />
 
-## Hello Evidence
-
-### Orders Table
-
-```all_orders
-select * from needful_things.orders
-```
-
-<DataTable data={all_orders} />
-
 ## What's Next?
 - [Connect your data sources](settings)
 - Edit/add markdown files in the `pages` folder
