@@ -18,6 +18,11 @@ title: Welcome to Evidence
     <DropdownOption value="%" valueLabel="All Categories"/>
 </Dropdown>
 
+<!-- <Header name="Noah"/> -->
+
+<p>Selected category: {inputs.category.value}</p>
+
+
 <Dropdown name=year>
     <DropdownOption value=% valueLabel="All Years"/>
     <DropdownOption value=2019/>
