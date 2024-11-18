@@ -1,11 +1,11 @@
 ---
-title: Welcome to Evidence
+title: Evidence with duckb
 ---
 
-<Details title='How to edit this page'>
+<!-- <Details title='How to edit this page'>
 
   This page can be found in your project at `/pages/index.md`. Make a change to the markdown file and save it to see the change take effect in your browser.
-</Details>
+</Details> -->
 
 ```sql categories
   select
@@ -17,8 +17,6 @@ title: Welcome to Evidence
 <Dropdown data={categories} name=category value=category>
     <DropdownOption value="%" valueLabel="All Categories"/>
 </Dropdown>
-
-<!-- <Header name="Noah"/> -->
 
 <p>Selected category: {inputs.category.value}</p>
 
@@ -50,7 +48,7 @@ title: Welcome to Evidence
     series=category
 />
 
-## What's Next?
+<!-- ## What's Next?
 - [Connect your data sources](settings)
 - Edit/add markdown files in the `pages` folder
 - Deploy your project with [Evidence Cloud](https://evidence.dev/cloud)
@@ -58,4 +56,4 @@ title: Welcome to Evidence
 ## Get Support
 - Message us on [Slack](https://slack.evidence.dev/)
 - Read the [Docs](https://docs.evidence.dev/)
-- Open an issue on [Github](https://github.com/evidence-dev/evidence)
+- Open an issue on [Github](https://github.com/evidence-dev/evidence) -->

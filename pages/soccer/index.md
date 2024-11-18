@@ -14,14 +14,17 @@ select * from european_soccer.teams
 ### Players
 
 ```sql players
-select player_name as player from european_soccer.players
+select * from european_soccer.players
 ```
 
-<!-- <DataTable data={players} /> -->
+## Attri
 
+
+<!-- <DataTable data={players} /> -->
+<!-- 
 <Dropdown data={players} name=player value=player>
     <DropdownOption value="%" valueLabel="All Players"/>
-</Dropdown>
+</Dropdown> -->
 
 
 ### Team Attributes
