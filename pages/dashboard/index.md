@@ -1,6 +1,12 @@
 ---
-title: Dashboard with cvs
+title: Dashboard
 ---
+
+<Details title='CVS Dataset'>
+
+  This section is using queries from a .cvs file
+  
+</Details>
 
 ### Airbnb Europe Listings
 

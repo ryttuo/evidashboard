@@ -7,6 +7,14 @@ title: Evidence with duckb
   This page can be found in your project at `/pages/index.md`. Make a change to the markdown file and save it to see the change take effect in your browser.
 </Details> -->
 
+
+```sql categories_data
+  select
+      sum(sales) as sales_usd
+  from needful_things.orders
+  group by all
+```
+
 ```sql categories
   select
       category

@@ -1,1 +1,1 @@
-select * from Player
+select * from Player as p inner join Player_Attributes pa on pa.overall_rating > 80 and p.player_fifa_api_id = pa.player_fifa_api_id group by p.player_api_id;

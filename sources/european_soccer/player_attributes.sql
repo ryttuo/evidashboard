@@ -1,1 +1,1 @@
-select * from Player_Attributes
+select * from Player_Attributes where overall_rating > 80;
