@@ -1,11 +1,12 @@
 ---
-title: Evidence with duckb
+title: Evidence
 ---
 
-<!-- <Details title='How to edit this page'>
+<Details title='duckdb'>
 
-  This page can be found in your project at `/pages/index.md`. Make a change to the markdown file and save it to see the change take effect in your browser.
-</Details> -->
+  This example is using duckdb
+  
+</Details>
 
 
 ```sql categories_data

@@ -11,7 +11,7 @@ title: Dashboard
 ### Airbnb Europe Listings
 
 ```sql airbnbs
-select * from airbnb_cleanup_europe.airbnb_cleanup_euro
+select * from airbnb_cleanup_europe.airbnb_cleanup_euro where Bedrooms > 2
 ```
 
 <DataTable data={airbnbs} />
@@ -30,7 +30,7 @@ select * from airbnb_cleanup_europe.airbnb_cleanup_euro
 
 <Heatmap 
     data={airbnbs} 
-    x=Day 
+    x='Room Type'
     y=City 
     value=Price 
     valueFmt=usd 

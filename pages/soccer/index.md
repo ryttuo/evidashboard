@@ -5,7 +5,7 @@ title: Soccer
 <Details title='Sqlite Dataset'>
 
   This section is using queries from sqlite
-  
+
 </Details>
 
 ### Teams
@@ -55,12 +55,6 @@ order by acceleration desc
     y=acceleration
     series=attacking_work_rate
 />
-
-### Team Attributes
-
-```sql team_attributes
-select * from european_soccer.team_attributes
-```
 
 ### Leagues
 
