@@ -5,8 +5,15 @@
 
     let pages = [];
     let isOpen = true;
+    let isMobile = false;
+
+    const checkMobile = () => {
+        isMobile = window.matchMedia('(max-width: 768px)').matches;
+        isOpen = isMobile ? false : true;
+    };
 
     onMount(() => {
+        checkMobile();
         if (data && data.pagesManifest && data.pagesManifest.children) {
             const { label } = data.pagesManifest;
             const homePage = { label : label.toLowerCase(), href : '', show: true, children : [] };

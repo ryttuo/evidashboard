@@ -21,7 +21,7 @@
 	logo="/imgs/logo.svg"
 	title='Evidence Test App'
   	neverShowQueries={true}
-  	githubRepo='https://github.com/ryttuo'
+  	githubRepo='https://github.com/ryttuo/evidashboard'
   	hideSidebar={true}
   	fullWidth={true}
 	hideTOC={false}
