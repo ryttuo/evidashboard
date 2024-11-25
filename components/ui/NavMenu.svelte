@@ -36,6 +36,14 @@
         return string.charAt(0).toUpperCase() + string.slice(1);
     }
 
+    function handleNavigation() {
+
+        if(isMobile) {
+            isOpen = false;
+        }
+
+    }
+
 </script>
 
 {#if pages && pages.length > 0}
@@ -54,7 +62,7 @@
       <ul>
         {#each pages as item}
               {#if item.children.length === 0}
-                  <li class="hover:bg-gray-700 p-3"><a href="{item.href}/">{capitalizeFirstLetter(item.label)}</a></li>
+                  <li class="hover:bg-gray-700 p-3"><a href="{item.href}/" on:click={handleNavigation}>{capitalizeFirstLetter(item.label)}</a></li>
               {/if}
               {#if item.children.length > 0}
                   <li>
@@ -63,7 +71,7 @@
                           {#each item.children as child}
                               {#if child.label}
                                   <li><a href={child.href}>{capitalizeFirstLetter(child.label)}</a></li>
-                                  <li class="hover:bg-gray-700 p-3"><a href={child.href}>{capitalizeFirstLetter(child.label)}</a></li>
+                                  <li class="hover:bg-gray-700 p-3"><a href={child.href} on:click={handleNavigation}>{capitalizeFirstLetter(child.label)}</a></li>
                               {/if}
                           {/each}
                       </ul>
